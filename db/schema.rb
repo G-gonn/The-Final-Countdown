@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171213162643) do
+ActiveRecord::Schema.define(version: 20171213175934) do
 
   create_table "bike_loans", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.date "booking_start"
@@ -54,8 +54,6 @@ ActiveRecord::Schema.define(version: 20171213162643) do
     t.string "driver_licence_number"
     t.date "driver_licence_date"
     t.string "driver_licence_country"
-    t.string "mail_address"
-    t.string "password"
     t.integer "phone_number"
     t.string "postal_address"
     t.integer "zip_code"
@@ -65,6 +63,18 @@ ActiveRecord::Schema.define(version: 20171213162643) do
     t.string "linkedin"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer "sign_in_count", default: 0, null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string "current_sign_in_ip"
+    t.string "last_sign_in_ip"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
 end
