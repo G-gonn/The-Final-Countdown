@@ -1,2 +1,162 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+	<title>baÏkee</title>
+</head>
+<body id="pages_homepage__index">
+  <div id="js_site_content" class="site_content">
+  <header class="header">
+  	<div class='container'>
+  		<nav class="header_container">
+  			<a class='header_logo' href="/"> <img src= "logo.png" style=" width: 85px; height: 50px;"> <%= link_to image_tag("logo.png", alt: "logo", :class => 'header_logo')
+        %>
+  			</a>
+
+  		    <ul class="navbar">
+  		    	<li class="navbar_item"><a class='navlink' href="">S'inscrire</a></li>
+  		    	<li class="navbar_item push"><a class='navlink' href="">Se connecter</a></li>
+
+  		    	<li class="navbar_item xs dropdown">
+  		    		<a class="navlink dropbtn "  href="/help">Des questions ?
+</a>
+  		    	    <ul class="navbar_subnav dropdown-content" >
+                        <li class="navbar_item">
+                        <a class="navlink navlink--sub" href="/comment-ca-marche">Comment ça marche&nbsp;?
+                        </a></li>
+                        <li class="navbar_item">
+                        <a class="navlink navlink--sub" href="/help">Aide
+                        </a></li>
+                        <li class="navbar_item">
+                        <a class="navlink navlink--sub" href="/contact">Contact
+                        </a></li>
+                    </ul>
+                        </li>
+
+  		    	<li class="navbar_item"><a class="navlink" href=""><div class="flag"><img src="http://www.granadaeditions.com/wp-content/uploads/2013/10/Drapeau-francais-e1463496293603.png" style="width: 19px; height: 19px; viewBox:0 0 19 19;"> </div></a></li>
+
+
+  		    	<li class="navbar__item">
+                <a class="navlink " href="/louer-sa-moto">Louer ma moto</a></li>  	
+
+  		    </ul>
+  		</nav>
+  	</div>
+
+</header>
+
+<!--  3 eme section avec les suggestions-->
+
+
+  <div class='cars_slideshow'>
+  	  <div class="container">
+  	  	<div class="row">
+  	  		<div class="col-xs-12 no-outer-gutter-xs">
+  	  			<h2 class="homepage_section_title">
+  	  				3 millions d'utilisateurs et plus de 150 00 deux roues de particuliers à louer en France
+  	  			</h2>
+  	  			<div class="homepage_motos_slideshow owl-carousel">
+  	  				<div class="owl-stage-outer">
+  	  					<div class=" owl-stage" >
+  	  				<img src="images/harley_davidson.jpg" style=" width: 262.5px; height: 192.5px;">
+  	  				<img src="images/ER6-N.jpg" style=" width: 262.5px; height: 192.5px;">
+  	  				<img src="images/MT10.jpg" style=" width: 262.5px; height: 192.5px;">
+  	  				<img src="images/moto1.jpg" style=" width: 262.5px; height: 192.5px;">
+  	  			</div>
+  	  			</div>
+  	  			</div>
+  	  		</div>		
+  	  	</div>
+  	  </div>
+  </div>
+
+<!-- completez vos revenus -->
+<div class="homepage_owner_layer">
+    <div class="container">
+        <h2 class="homepage_section_title">Complétez vos revenus</h2>
+           <p>Inscrivez gratuitement votre deux roues, puis louez-la quand vous voulez.<br>Soyez tranquille : Allianz assure toutes les locations !</p>
+           <div class="top30"><a class="button button_asphalt button_big_cta button_xs_block" href="https://www.baïkee.com/louer-sa-moto">Louer ma moto</a></div>
+     </div>
+</div>
+
+</div>
+
+ <!-- footer -->
+
+<footer class="js_footers" id="footers">
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-xs-12 bottom20">
+<h3 class="footer_title"><a href="https://www.drivy.com/a-propos-de-la-location-de-voitures-de-particulier-a-particulier">À propos</a></h3>
+<p class="justify">Baïkee vous permet de louer un deux roues parmi les milliers qui sont garés près de vous.
+Louez moins cher et plus rapidement.<br>
+Si vous possédez un deux roues, mettez le en location pour qu’il paie ses factures tout seul.
+Nous sommes là pour que la confiance règne, en assurant les locations et en veillant à leur bon déroulement.
+</p>
+</div>
+<div class="col-md-2 col-sm-3 col-xs-6 bottom20">
+<h3 class="footer_title">En savoir plus</h3>
+<ul>
+<li><a class="" href="/comment-ca-marche" rel="nofollow">Comment ça marche&nbsp;?</a></li>
+<li><a class="" href="/help" rel="nofollow">Accueil de l'aide</a></li>
+<li><a href="https://www.drivy.com/contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-3 col-xs-6 bottom20">
+<h3 class="footer_title">Découvrir</h3>
+<ul>
+<li><a class="" href="https://www.drivy.com/assurance-location-voiture-particulier" rel="nofollow">Assurance</a></li>
+<li><a href="https://www.drivy.com/contrat-location-vehicule-entre-particulier">Contrat de location</a></li>
+<li><a href="https://www.drivy.com/professionnels">Professionnels</a></li>
+<li><a href="https://www.drivy.com/mobile">Applis mobile</a></li>
+<li><a href="https://www.drivy.com/bons-plans-proprietaires">Bons plans</a></li>
+<li><a href="https://www.drivy.com/diagnostic">Diagnostic véhicule</a></li>
+</ul>
+</div>
+<div class="clearfix visible-xs-block"></div>
+<div class="col-md-2 col-sm-3 col-xs-6 bottom20" itemscope="" itemtype="http://schema.org/Organization">
+<link href="https://www.drivy.com/" itemprop="url">
+<link href="https://fr.wikipedia.org/wiki/Drivy" itemprop="sameAs">
+<link href="https://plus.google.com/108530477570400575729" itemprop="sameAs">
+<h3 class="footer_title">Nous suivre</h3>
+<ul>
+<li><a itemprop="sameAs" target="blank" href="https://www.facebook.com/Ba%C3%AFkee-338485653287265/?modal=admin_todo_tour">Facebook</a></li>
+<li><a itemprop="sameAs" target="blank" href="https://twitter.com/ReelBaikee">Twitter</a></li>
+<li><a itemprop="sameAs" target="blank" href="https://www.instagram.com/drivyfr/">Instagram</a></li>
+
+</ul>
+</div>
+<div class="col-md-2 col-sm-3 col-xs-6 bottom20">
+	<h3 class="footer_title">Partenaires</h3>
+	<a href="https://www.allianz.fr"><img src="images/Allianz.png" style=" width: 111px; height: 28px;"></a>
+
+	<div class="top15">
+		<a href="https://http://www.thehackingproject.org"><img src="images/thp.png" style="width: 111px; height: 28px;"></a>
+		
+	</div>
+</div>
+</div>
+
+
+<div class="footer_corporate">
+<div class="container">	
+
+
+
+<span class="copyright">© Baïkee 2017-2018 </span>
+
+
+
+
+</div>
+</div>
+
+	
+
+
+</footer>
+  <script href="script.js"></script>
+</body>
+</html>
