@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: MyString
+  first_name: MyString
+  date_of_birth: 2017-12-13
+  place_of_birth: MyString
+  type_of_driver_licence: MyString
+  driver_licence_number: MyString
+  driver_licence_date: 2017-12-13
+  driver_licence_country: MyString
+  mail_address: MyString
+  password: MyString
+  phone_number: 1
+  postal_address: MyString
+  zip_code: 1
+  city: MyString
+  country: MyString
+  about_me: MyText
+  linkedin: MyString
+
+two:
+  last_name: MyString
+  first_name: MyString
+  date_of_birth: 2017-12-13
+  place_of_birth: MyString
+  type_of_driver_licence: MyString
+  driver_licence_number: MyString
+  driver_licence_date: 2017-12-13
+  driver_licence_country: MyString
+  mail_address: MyString
+  password: MyString
+  phone_number: 1
+  postal_address: MyString
+  zip_code: 1
+  city: MyString
+  country: MyString
+  about_me: MyText
+  linkedin: MyString
