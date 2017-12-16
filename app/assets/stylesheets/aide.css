@@ -1,0 +1,82 @@
+.baniere{
+
+background: linear-gradient(-134deg, #e01a7a 0%, #ff661a 100%);
+height: 200px;
+
+}
+
+
+h2 {
+  font-family: "Programme", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: gray;
+
+}
+
+h3 {
+
+  font-size: 70px;
+  font-family: "Programme", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  padding-top: 50px;
+
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+  text-align: center;
+  clear: both;
+}
+p span {
+  float: left;
+}
+
+
+/*Collapse List==============================================
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion, .accordion2 {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    font-family: "Programme", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover, .accordion2:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+
+/*===========================================================
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

@@ -15,3 +15,6 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
  
 Rails.application.config.assets.precompile += %w( new.js new.css )
 Rails.application.config.assets.precompile += %w( index.css )
+Rails.application.config.assets.precompile += %w( aide.js aide.css )
+Rails.application.config.assets.precompile += %w( contact.css )
+Rails.application.config.assets.precompile += %w( comment-ca-marche.css)

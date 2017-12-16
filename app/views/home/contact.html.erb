@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <%= stylesheet_link_tag "contact.css", media: "all", "data-turbolinks-track" => "true" %>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="contact.css" />
+      <title>Comment ça marche ?</title>
+    </head>
+
+<header>
+
+    <div class="baniere" style="color:white;">
+
+      <h3>Contacter Baïkee</h3>
+
+    </div>
+
+</header>
+
+<body>
+  <p>Que vous soyez locataire ou propriétaire vous pouvez nous contacter en complétant le formulaire ci-dessous. <br> Nous transmettrons votre question à l'équipe concernée et vous répondrons rapidement.</p>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">Prénom</label>
+      <input type="text" id="fname" name="firstname" placeholder="Votre prénom..">
+
+      <label for="lname">Nom</label>
+      <input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+
+      <label for="subject">Sujet</label>
+      <textarea id="subject" name="subject" placeholder="Votre texte.." style="height:200px"></textarea>
+
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+
+</body>
+
+</html>

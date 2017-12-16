@@ -9,5 +9,11 @@ Rails.application.routes.draw do
 
   get '/profile', to: 'home#profile'
 
+  get '/aide', to: 'home#aide'
+
+  get '/contact', to: 'home#contact'
+
+  get '/comment-ca-marche', to: 'home#comment-ca-marche'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
