@@ -78,7 +78,78 @@
 
 </header>
 
+<!--search-->
 
+   
+
+<div id="container">
+
+    <h1 class="homepage_title">Louez les motos près de chez vous</h1>
+
+    <h2 class="homepage_subtitle">Moins cher, plus proche, plus pratique</h2>
+
+    <form id="function_search">
+
+      <% content_for :title do %>Instant-search<% end %>
+
+
+
+<% content_for :title do %>Backend-search<% end %>
+
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-sm-6 col-sm-offset-3">
+
+      <%= form_for Contact.new, url: '/backend-search', method: 'get' do |f| %>
+
+        <%= text_field :contact, :q, class: "form-control" %>
+
+      <% end %>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<% if @hits %>
+
+  <h2>Results</h2>
+
+  <% @hits.each do |hit| %>
+
+    <div class="hit">
+
+      <%= debug hit %>
+
+    </div>
+
+  <% end %>
+
+  <%#= will_paginate @hits %>
+
+  <%#= paginate @hits  %>
+
+<% end %>
+          <div class="col-lg-2 col-md-12 col-xs-12 bottom15">
+            <button class="search_button"> Search</button>
+          </div>
+
+          </div>  
+
+        </div>
+
+      </div>
+
+    </form>
+
+</div>
 
 <!--  3 eme section avec les suggestions-->
 
