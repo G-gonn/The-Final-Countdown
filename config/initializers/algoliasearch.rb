@@ -1,0 +1,1 @@
+AlgoliaSearch.configuration = { application_id: "L2JXYMWMS7", api_key: "423167544720a8315d8bd0fcf775fc11" }
